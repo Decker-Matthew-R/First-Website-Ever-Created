@@ -1,0 +1,98 @@
+{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('photo-1536924430914-91f9e2041b83.jpg');
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.navigation-menu {
+    float: right;
+    list-style: none;
+}
+
+.navigation-menu li {
+    display: inline-block;
+}
+
+   .navigation-menu li a {
+    color: silver;
+    text-decoration: none;
+    padding: 1vh;
+    font-family: fantasy;
+    font-size: 3vh;
+}
+
+
+.navigation-menu li a:hover {
+    border: 1px solid silver;
+    background-color: black;
+}
+
+.logo {
+    position: fixed;
+}
+
+h1  {
+    color: silver;
+    font-size: 5vh;
+    font-family: fantasy;
+    text-align:center;
+    margin-left: 10vh;
+    margin-top: 70vh;
+}
+
+.bio {
+    position: fixed;
+    width: 35vh;
+    margin-left: 0 ;
+    margin-top: 0;  
+}
+
+h2 {
+    color: silver;
+    font-size: 3vh;
+    font-family: fantasy;
+    text-align:left;
+    margin-left: 2vh;
+    margin-top: 50vh;
+}
+
+.gallery{
+    margin: 0vh;
+    
+
+}
+.gallery img {
+    transition: 1s;
+    padding: 1vh;
+    width: 15vh; 
+    margin-top: 10vh;
+   
+}
+.gallery img:hover{
+    border: 1px solid silver;
+    background-color: black;
+    transform: scale(1.1);
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
